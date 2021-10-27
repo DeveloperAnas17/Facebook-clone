@@ -12,7 +12,7 @@ import SubscriptionsIcon from "@mui/icons-material/Subscriptions";
 
 function Header() {
   return (
-    <header className="h-16 flex items-center justify-between px-2 shadow-md w-full overflow-hidden">
+    <header className="bg-black z-30 sticky top-0 h-16 flex items-center justify-between px-2 shadow-md w-full overflow-hidden border-b">
       {/* left */}
       <div className="flex items-center">
         <img
@@ -20,7 +20,7 @@ function Header() {
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcOjVKk9jHPz7WfIRnSSPftbQ02XG1jJrvMw&usqp=CAU"
           alt=""
         />
-        <div className="mx-3 flex items-center bg-gray-100 p-2 rounded-3xl">
+        <div className="mx-3 flex items-center bg-[#25272c] p-2 rounded-3xl">
           <SearchIcon className="h-6 w-6 text-gray-500" />
           <input
             className="bg-transparent outline-none border-0 px-2"

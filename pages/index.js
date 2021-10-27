@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
       <Header />
       {/* body */}
-      <div className="flex justify-between max-w-screen-2xl bg-red-300 mx-auto p-3">
+      <div className="flex justify-between max-w-screen-2xl mx-auto p-3">
         <Sidebar className="" />
         <Feed className="" />
         <Widgets className="" />

@@ -3,10 +3,20 @@
 @tailwind utilities;
 
 @layer components {
+  body {
+    @apply bg-black text-white;
+  }
   .headerIcons {
-    @apply h-8 w-8 text-gray-500 cursor-pointer hover:bg-gray-100 hover:p-3;
+    @apply h-8 w-8 text-gray-100 cursor-pointer hover:bg-gray-100 hover:p-3;
   }
   .headerNav {
     @apply h-10 w-10 bg-gray-200 p-3 cursor-pointer rounded-full;
+  }
+
+  .stories {
+    @apply relative h-44 w-32 object-contain cursor-pointer hover:opacity-80;
+  }
+  .storiesUser {
+    @apply absolute top-2 left-1 h-10 w-10 border-2 rounded-full;
   }
 }

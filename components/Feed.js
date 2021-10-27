@@ -1,9 +1,9 @@
+import Stories from "./Stories";
+
 function Feed() {
   return (
-    <div className="bg-yellow-200">
-      <h1>Feed</h1>
-      <h1>Feed</h1>
-      <h1>Feed</h1>
+    <div className="">
+      <Stories />
     </div>
   );
 }

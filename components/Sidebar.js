@@ -11,7 +11,7 @@ import SidebarComponents from "./SidebarComponents";
 
 function Sidebar() {
   return (
-    <div className="hidden xl:inline-block border-r w-60 bg-gray-50">
+    <div className="hidden lg:inline-block border-r w-60 bg text-white">
       <SidebarComponents Icon={UsersIcon} title="Anas Abbasi" />
       <SidebarComponents Icon={PersonIcon} title="Anas Abbasi" />
       <SidebarComponents Icon={PersonIcon} title="Anas Abbasi" />
