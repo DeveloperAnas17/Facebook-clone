@@ -3,9 +3,6 @@
 @tailwind utilities;
 
 @layer components {
-  body {
-    @apply bg-black text-white;
-  }
   .headerIcons {
     @apply h-8 w-8 text-gray-100 cursor-pointer hover:bg-gray-100 hover:p-3;
   }
