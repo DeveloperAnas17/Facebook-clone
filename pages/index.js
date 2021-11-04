@@ -7,14 +7,16 @@ import Sidebar from "../components/Sidebar";
 export default function Home({ session }) {
   // if (!session) return <Login />;
   return (
-    <div className="">
+    <div className="h-screen overflow-hidden">
       <Head>
         <title>Facebook Clone</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
       {/* body */}
-      <Sidebar />
+      <main className="flex ">
+        <Sidebar />
+      </main>
     </div>
   );
 }
